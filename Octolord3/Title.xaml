@@ -1,0 +1,16 @@
+﻿<Page x:Class="EyeOfTheMedusa3.Title"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EyeOfTheMedusa3"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920" Background="Black"
+      Title="Title">
+
+    <Grid>
+        <Label x:Name="label" Content="OCTOLORD III" FontStyle="Italic" HorizontalAlignment="Left" FontFamily="Segoe" FontSize="160"  Height="355" Margin="401,185,0,0" VerticalAlignment="Top" Width="1443" Foreground="White" />
+        <Button x:Name="button" Content="Start" Background="Black" FontSize="100" Foreground="White" HorizontalAlignment="Left" Margin="731,545,0,0" VerticalAlignment="Top" Width="339" Click="button_Click" Height="161"/>
+
+    </Grid>
+</Page>
